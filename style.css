@@ -8,9 +8,6 @@ img{
 }
 */
 
-body{
-  background: #FEFAE0;
-}
 /*presets*/
 *{
     font-family: 'Oswald', sans-serif;
@@ -36,6 +33,10 @@ img{
 .ct{
     text-align: center;
 }
+#footer{
+    background: #CCD5AE;
+    padding: 5px;
+}
 /*columns*/
 .inner{
     display: flex;
@@ -51,4 +52,7 @@ img{
 }
 .p40{
     padding: 40px;
+}
+body{
+    background: #CCD5AE;
 }
