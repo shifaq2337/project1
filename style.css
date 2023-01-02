@@ -58,7 +58,7 @@ body{
 }
 /*home specifics*/
 #about img{
-    max-width: 30%;
+    max-width: 20%;
     width: auto;
     padding: 10px;
     border-radius: 100%
