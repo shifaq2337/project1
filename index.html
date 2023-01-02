@@ -11,43 +11,49 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+        <script>
+            img{
+                max-width: 50%;
+            }
+        </script>
 
     </head>
     <body>
 <!--navbar-->
             <nav class="navbar navbar-expand-lg" style="background-color: #E9EDC9;">
             <div class="container-fluid">
-                <a class="navbar-brand" href="index.html">Navbar</a>
+                <a class="navbar-brand" href="index.html">
+                    <img src="assets/imgs/Logo.png" width="100" height="50" class="d-inline-block align-text-top">
+                </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                            <a class="nav-link active" aria-current="page" href="index.html"><h3>Home</h3></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="contact.html">Contact</a>
+                            <a class="nav-link" href="contact.html"><h3>Contact</h3></a>
                         </li>
                     </ul>
                 </div>
             </div>
         </nav>
 <!--about me-->
-<!--
-        <section>
-            <div class="c100 inner p40">
-                <div class="c50">
-                    <img src="assets/imgs/pastelgalaxy.png">
-                </div>
-            </div>
+        <section id="about">
+            <h1 class="ct p10">About Me</h1>
+            <div id="contain">
+                <img src="assets/imgs/me.jpg">
+                <p>Hi, My name is Shifa Quddus. I recently graduated with a BA in Psychology from CUNY Baruch College. In high school, I was in the Software Engineering Pilot (SEP) program. Currently, I am a learning front and back end programming. I am also venturing into the the world of digital art. I believe art is therapeutic and helps people express their emotions in a different form. Please take a look at some of my work below. Thank you!</p>
+            </div>         
+
         </section>
--->
 <!--gallery-->
         <section id="gallery">
-            <div class="inside">
+            <div class="inner">
                 <h2 class="c100 ct">Work Gallery</h2>
-                <div class="c50 p10">
+                <div class="c33 p10">
                     <div class="card">
                         <img src="assets/imgs/pastelgalaxy.png">
                     </div>
@@ -57,7 +63,7 @@
 <!--footer-->
         <section id="footer">
             <div class="footer text-center">
-                <h3 id="footercolor">Copyright © 2023 | <strong>Shifa Quddus</strong></h3>
+                <h4 id="footercolor">Copyright © 2023 | <strong>Shifa Quddus</strong></h4>
             </div>
         </section>
     </body>
