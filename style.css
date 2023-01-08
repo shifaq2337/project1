@@ -56,10 +56,13 @@ img{
 body{
     background: #CCD5AE;
 }
+section a{
+    color: mediumvioletred;
+}
 /*home specifics*/
 #about img{
     max-width: 20%;
-    width: auto;
+/*    width: auto;*/
     padding: 10px;
     border-radius: 100%
 }
@@ -73,7 +76,40 @@ body{
 }
 #gallery{
     background: #FAEDCD;
+    background: rgb(204,213,174);
+    background: linear-gradient(90deg, rgba(212,163,115,1) 0%, rgba(250,237,205,1) 35%, rgba(254,250,224,1) 100%);
+    padding: 50px;
 }
 #about{
     background: #FEFAE0;
+    background: rgb(254,250,224);
+    background: linear-gradient(85deg, rgba(254,250,224,1) 0%, rgba(250,237,205,1) 35%, rgba(212,163,115,1) 100%);
+    padding: 50px;
+}
+#aboutmecontent{
+    color: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(142,142,142,1) 100%);
+}
+button{
+    background: beige;
+    border-color: greenyellow;
+/*
+    display: flex;
+    flex-wrap: wrap;
+*/
+}
+/*media queries*/
+@media only screen and (max-width: 900px){
+    #about img{max-width: 30%}
+    #sizectrl{max-width: 70%}
+}
+@media only screen and (max-width: 600px){
+    .c33, .c50{
+        width: 100%;
+    }
+    #about img{max-width: 40%}
+    #sizectrl{max-width: 80%}
+}
+@media only screen and (max-width: 375px){
+    #about img{max-width: 50%}
+    #sizectrl{max-width: 90%}
 }
